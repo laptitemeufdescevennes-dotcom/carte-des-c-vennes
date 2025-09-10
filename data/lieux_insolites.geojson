@@ -1,0 +1,319 @@
+{
+  "type": "FeatureCollection",
+  "name": "lieux_insolites_cevennes",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aven Armand",
+        "commune": "Hures-la-Parade",
+        "dept": "48",
+        "category": "Grotte / Gouffre",
+        "summary": "Gouffre emblématique aux stalagmites géantes (1897).",
+        "access": "Site aménagé, visite guidée.",
+        "tags": ["souterrain","karst","classique"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.427, 44.235] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grotte de la Cocalière",
+        "commune": "Courry",
+        "dept": "30",
+        "category": "Grotte",
+        "summary": "Lacs souterrains et concrétions fines, \"grotte des merveilles\".",
+        "access": "Site aménagé + petit train.",
+        "tags": ["souterrain","famille"]
+      },
+      "geometry": { "type": "Point", "coordinates": [4.167, 44.270] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Résurgence de la Foux",
+        "commune": "Hures-la-Parade",
+        "dept": "48",
+        "category": "Source / Résurgence",
+        "summary": "Jaillissement karstique dans un chaos rocheux.",
+        "access": "Court sentier depuis la route.",
+        "tags": ["source","karst","sauvage"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.338, 44.211] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Résurgence de la Vis",
+        "commune": "Saint-Maurice-Navacelles",
+        "dept": "34/30",
+        "category": "Source / Résurgence",
+        "summary": "Eaux turquoises sortant de la montagne.",
+        "access": "Belvédères et vasques (prudence).",
+        "tags": ["eau","vasques","iconique"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.468, 43.871] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cirque de Navacelles – Belvédère",
+        "commune": "Saint-Maurice-Navacelles",
+        "dept": "34/30",
+        "category": "Belvédère / Site naturel",
+        "summary": "Méandre fossile de la Vis, vues monumentales.",
+        "access": "Belvédère de la Baume Auriol.",
+        "tags": ["panorama","UNESCO","GR"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.500, 43.884] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Observatoire du Mont Aigoual",
+        "commune": "Val-d'Aigoual",
+        "dept": "30/48",
+        "category": "Sommet / Patrimoine",
+        "summary": "Observatoire météo de montagne, vues 360°.",
+        "access": "Route + randonnées.",
+        "tags": ["sommet","météo","musée"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.580, 44.121] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gorges du Tapoul",
+        "commune": "Rousses",
+        "dept": "48",
+        "category": "Canyon",
+        "summary": "Canyon étroit, paradis du canyoning.",
+        "access": "Sorties encadrées recommandées.",
+        "tags": ["canyoning","eau","sport"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.646, 44.271] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Garde-Guérin",
+        "commune": "Prévenchères",
+        "dept": "48",
+        "category": "Village fortifié",
+        "summary": "Cité médiévale perchée des pariers.",
+        "access": "Village piéton, belvédères.",
+        "tags": ["médiéval","perché","plusbeauxvillages"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.935, 44.425] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arcs de Saint-Pierre",
+        "commune": "Camprieu",
+        "dept": "30",
+        "category": "Arches naturelles",
+        "summary": "Ponts rocheux en forêt du Lingas.",
+        "access": "Petite marche depuis la route.",
+        "tags": ["roche","forêt","curiosité"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.442, 44.147] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chaos de Montpellier-le-Vieux",
+        "commune": "Millau (Causse Noir)",
+        "dept": "12 (limite Cévennes)",
+        "category": "Chaos rocheux",
+        "summary": "Immense cité de pierre naturelle.",
+        "access": "Parc aménagé, circuits.",
+        "tags": ["roche","labyrinthe","familial"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.171, 44.109] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pic d'Anjeau",
+        "commune": "Sumène",
+        "dept": "30",
+        "category": "Sommet",
+        "summary": "Montagne légendaire (sorcières).",
+        "access": "Randonnée sportive.",
+        "tags": ["sommet","légende","vue"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.606, 43.930] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roc de l'Aigle",
+        "commune": "Barre-des-Cévennes",
+        "dept": "48",
+        "category": "Rocher remarquable",
+        "summary": "Silhouette d'oiseau, point d'énergie.",
+        "access": "Court sentier.",
+        "tags": ["panorama","coucherdesoleil"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.600, 44.160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arcs de Barjac",
+        "commune": "Barjac",
+        "dept": "30",
+        "category": "Arches naturelles",
+        "summary": "Ponts rocheux cachés.",
+        "access": "Hors sentier (orientation).",
+        "tags": ["roche","aventure"]
+      },
+      "geometry": { "type": "Point", "coordinates": [4.338, 44.298] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tour de l'Horloge",
+        "commune": "Sumène",
+        "dept": "30",
+        "category": "Patrimoine",
+        "summary": "Vestige médiéval, repère villageois.",
+        "access": "Centre-bourg.",
+        "tags": ["médiéval","urbain"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.701, 43.960] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cascades d'Orgon",
+        "commune": "Saint-André-de-Valborgne",
+        "dept": "30",
+        "category": "Cascade",
+        "summary": "Chutes et vasques sous hêtraie.",
+        "access": "Sentier ombragé.",
+        "tags": ["baignade","forêt"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.649, 44.100] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gouffre des Espelugues",
+        "commune": "Florac Trois Rivières",
+        "dept": "48",
+        "category": "Gouffre",
+        "summary": "Perte temporaire des eaux.",
+        "access": "Accès court, glissant.",
+        "tags": ["karst","curiosité"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.601, 44.326] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chaos de Nîmes-le-Vieux",
+        "commune": "Causse Méjean",
+        "dept": "48",
+        "category": "Chaos rocheux",
+        "summary": "Dolomies sculptées, \"cité des fées\".",
+        "access": "Boucles balisées.",
+        "tags": ["roche","photogénique"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.402, 44.214] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cham des Bondons",
+        "commune": "Les Bondons",
+        "dept": "48",
+        "category": "Mégalithes",
+        "summary": "Alignements de menhirs sur plateau.",
+        "access": "Accès libre.",
+        "tags": ["mégalithes","cielouvert"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.567, 44.378] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castelbouc",
+        "commune": "Sainte-Enimie (Gorges du Tarn)",
+        "dept": "48",
+        "category": "Village",
+        "summary": "Village accroché et légende sulfureuse.",
+        "access": "À pied / canoë.",
+        "tags": ["légende","falaises"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.500, 44.341] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abîme de Bramabiau",
+        "commune": "Camprieu",
+        "dept": "30/48",
+        "category": "Gouffre / Source",
+        "summary": "Rivière souterraine jaillissante.",
+        "access": "Site aménagé.",
+        "tags": ["souterrain","eau"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.445, 44.118] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Château de Portes",
+        "commune": "Portes",
+        "dept": "30",
+        "category": "Château",
+        "summary": "Forteresse en proue de navire.",
+        "access": "Route + visite.",
+        "tags": ["patrimoine","route du sel"]
+      },
+      "geometry": { "type": "Point", "coordinates": [4.027, 44.240] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cascade de Runes",
+        "commune": "Pont-de-Montvert - Sud Mont Lozère",
+        "dept": "48",
+        "category": "Cascade",
+        "summary": "Chute de 70 m, embruns féeriques.",
+        "access": "Sentier balisé.",
+        "tags": ["eau","photo"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.741, 44.371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Celles (village fantôme)",
+        "commune": "Octon / Celles",
+        "dept": "34",
+        "category": "Village fantôme",
+        "summary": "Ancien village déserté, renaissant.",
+        "access": "Rives du Salagou.",
+        "tags": ["ruines","rougier"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.362, 43.644] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mont Lozère – Montjoies",
+        "commune": "Pont-de-Montvert / Mas Camargues",
+        "dept": "48",
+        "category": "Patrimoine de montagne",
+        "summary": "Montjoies (repères) et drailles anciennes.",
+        "access": "Nombreux sentiers.",
+        "tags": ["transhumance","granite"]
+      },
+      "geometry": { "type": "Point", "coordinates": [3.739, 44.443] }
+    }
+  ]
+}

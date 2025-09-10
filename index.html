@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Carte – Cévennes (Mapbox GL · Pro)</title>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet"/>
+<style>
+  :root{--bg:#0b0f1a;--fg:#e5e7eb;--muted:#94a3b8;--card:#0f172a;--border:#334155;--accent:#22c55e}
+  html,body,#map{height:100%;margin:0;background:var(--bg);color:var(--fg)}
+  #map{position:relative}
+  #panel{position:absolute;top:12px;left:12px;z-index:10;background:var(--bg);color:var(--fg);padding:12px;border-radius:14px;border:1px solid var(--border);box-shadow:0 8px 26px rgba(0,0,0,.3);max-width:440px;transition:transform .25s}
+  #panel.closed{transform:translateX(-460px)}
+  #panel h3{margin:0 0 8px;font:700 16px/1.2 system-ui}
+  #panel h4{margin:10px 0 6px;font:600 13px/1.2 system-ui;color:var(--muted)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  label{display:flex;gap:8px;align-items:center;font:13px system-ui;background:var(--card);border:1px solid var(--border);padding:6px 8px;border-radius:8px}
+  select,input[type="text"],button{background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:8px;padding:8px}
+  #maptype{width:100%;margin:6px 0 8px}
+  #searchRow{display:grid;grid-template-columns:1fr auto;gap:6px;margin-bottom:8px}
+  #controls{display:grid;grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:8px}
+  #toggle{cursor:pointer;margin-bottom:8px}
+  #toast{position:absolute;right:12px;top:12px;z-index:11;padding:8px 12px;border-radius:10px;background:#111827;color:#e5e7eb;border:1px solid var(--border);box-shadow:0 8px 26px rgba(0,0,0,.25);display:none}
+  .muted{opacity:.55}
+  .popup{font:13px/1.35 system-ui; color:#111; max-width:280px}
+  .popup h4{margin:0 0 6px; font:600 14px/1.2 system-ui}
+  .popup small{color:#334155}
+  .grid2{display:grid;grid-template-columns: auto 1fr; gap:4px 8px; align-items:center}
+  .chip{display:inline-block; background:#eef2ff; color:#111; padding:2px 6px; border-radius:6px; border:1px solid #c7d2fe; font-size:12px}
+</style>
+</head>
+<body>
+<div id="map" role="application" aria-label="Carte des Cévennes"></div>
+
+<div id="panel">
+  <button id="toggle">☰ Panneau</button>
+  <h3>Carte Cévennes <span style="display:inline-block;background:#111827;color:#cbd5e1;border:1px solid #334155;padding:2px 6px;border-radius:6px;font:12px system-ui">Mapbox GL</span></h3>
+
+  <select id="maptype" title="Fond de carte">
+    <option value="mapbox://styles/mapbox/outdoors-v12" selected>Outdoors</option>
+    <option value="mapbox://styles/mapbox/streets-v12">Streets</option>
+    <option value="mapbox://styles/mapbox/satellite-streets-v12">Satellite + labels</option>
+    <option value="mapbox://styles/mapbox/light-v11">Light</option>
+    <option value="mapbox://styles/mapbox/dark-v11">Dark</option>
+  </select>
+
+  <div id="searchRow">
+    <input id="search" placeholder="Rechercher (villes, panoramas, commerces…)" aria-label="Rechercher un lieu"/>
+    <button id="clearSearch" title="Effacer">✕</button>
+  </div>
+
+  <div id="controls">
+    <button id="showAll">Tout afficher</button>
+    <button id="hideAll">Tout masquer</button>
+    <button id="fit">Recentrer</button>
+    <button id="collapse">🔽 Réduire</button>
+  </div>
+
+  <h4>Zonage Parc</h4>
+  <div class="row">
+    <label><input type="checkbox" data-layer="coeur" checked> Cœur du Parc</label>
+    <label><input type="checkbox" data-layer="adhesion" checked> Adhésion</label>
+    <label><input type="checkbox" data-layer="piemonts" checked> Piémonts (PNC)</label>
+  </div>
+
+  <h4>EPCI (Piémont)</h4>
+  <div class="row">
+    <label><input type="checkbox" data-layer="piemont_epci" checked> Piémont (ensemble)</label>
+    <label><input type="checkbox" data-layer="epci_ales" checked> Alès Agglo</label>
+    <label><input type="checkbox" data-layer="epci_cacts" checked> CA Causses Aigoual Cévennes</label>
+    <label><input type="checkbox" data-layer="epci_cccgs" checked> CC Cévennes Gangeoises</label>
+  </div>
+
+  <h4>Lignes / surfaces</h4>
+  <div class="row">
+    <label><input type="checkbox" data-layer="rivers" checked> Rivières</label>
+    <label><input type="checkbox" data-layer="routes" checked> Routes</label>
+    <label><input type="checkbox" data-layer="sensitive_areas" checked> Zones sensibles</label>
+  </div>
+
+  <h4>Points (icônes personnalisées + clustering)</h4>
+  <div class="row">
+    <label><input type="checkbox" data-layer="villes" checked> Villes</label>
+    <label><input type="checkbox" data-layer="villages" checked> Villages</label>
+    <label><input type="checkbox" data-layer="hameaux" checked> Hameaux</label>
+    <label><input type="checkbox" data-layer="towns" checked> Towns</label>
+    <label><input type="checkbox" data-layer="offices_tourisme" checked> Offices tourisme</label>
+    <label><input type="checkbox" data-layer="cols_sommets" checked> Cols & sommets</label>
+    <label><input type="checkbox" data-layer="cascades" checked> Cascades</label>
+    <label><input type="checkbox" data-layer="panoramas" checked> Panoramas</label>
+    <label><input type="checkbox" data-layer="sites_historiques" checked> Sites historiques</label>
+    <label><input type="checkbox" data-layer="sites_naturels" checked> Sites naturels</label>
+    <label><input type="checkbox" data-layer="lieux_insolites" checked> Lieux insolites</label>
+    <label><input type="checkbox" data-layer="activites" checked> Activités</label>
+    <label><input type="checkbox" data-layer="commerces" checked> Commerces</label>
+  </div>
+
+  <small style="opacity:.65">Clustering activé **partout** (mobile & desktop). Icônes par type. Popups riches (photos, lien, horaires, téléphone…).</small>
+</div>
+
+<div id="toast" role="status"></div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<script>
+  // Token (URL ?key=... ou fallback intégré)
+  (function(){
+    const qs = new URLSearchParams(location.search);
+    const fromUrl = qs.get('key');
+    const stored = localStorage.getItem('MAPBOX_KEY');
+    const KEY = fromUrl || stored || "pk.eyJ1IjoiZ25kc2F2IiwiYSI6ImNtZW11Y2Y4NTBzMWEybHF2Nmt0enNnY3QifQ.FM1gqt_-V1mLoOPrSMzJxA";
+    if (fromUrl) localStorage.setItem('MAPBOX_KEY', fromUrl);
+    mapboxgl.accessToken = KEY;
+  })();
+
+  const map = new mapboxgl.Map({
+    container:'map', style: document.getElementById('maptype').value,
+    center:[3.6,44.1], zoom:8.8, pitch:45, bearing:0, hash:'map'
+  });
+  map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+  map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
+  map.addControl(new mapboxgl.GeolocateControl({ positionOptions: { enableHighAccuracy:true }, trackUserLocation:true }), 'top-right');
+
+  document.getElementById('maptype').addEventListener('change', e=>{ map.setStyle(e.target.value); map.once('styledata', ()=> reapplyAll()); });
+
+  function addTerrain(){
+    if (!map.getSource('terrain-dem')) map.addSource('terrain-dem', { type:'raster-dem', url:'mapbox://mapbox.terrain-rgb', tileSize:512, maxzoom:14 });
+    map.setTerrain({ source:'terrain-dem', exaggeration:1.2 });
+    if (!map.getLayer('sky')) map.addLayer({ id:'sky', type:'sky', paint:{ 'sky-type':'atmosphere','sky-atmosphere-sun':[0,0],'sky-atmosphere-sun-intensity':15 } });
+  }
+
+  // SPECS
+  const SPECS = {
+    // Polygones
+    coeur:{ file:'data/coeur.geojson', kind:'polygon', color:'#16a34a' },
+    adhesion:{ file:'data/adhesion.geojson', kind:'polygon', color:'#22c55e' },
+    piemonts:{ file:'data/piemonts.geojson', kind:'polygon', color:'#84cc16' },
+    piemont_epci:{ file:'data/piemont_epci.geojson', kind:'polygon', color:'#fde047', fillOpacity:0.10, strokeWeight:1.5 },
+    epci_ales:{ file:'data/epci_ales.geojson', kind:'polygon', color:'#f97316', fillOpacity:0.10, strokeWeight:1.5 },
+    epci_cacts:{ file:'data/epci_cacts.geojson', kind:'polygon', color:'#38bdf8', fillOpacity:0.10, strokeWeight:1.5 },
+    epci_cccgs:{ file:'data/epci_cccgs.geojson', kind:'polygon', color:'#a78bfa', fillOpacity:0.10, strokeWeight:1.5 },
+    // Lignes
+    rivers:{ file:'data/rivers.geojson', kind:'line', color:'#0ea5e9', width:2.2 },
+    routes:{ file:'data/routes.geojson', kind:'line', color:'#e5e7eb', width:1.6 },
+    sensitive_areas:{ file:'data/sensitive_areas.geojson', kind:'polygon', color:'#fb7185', fillOpacity:0.16, strokeWeight:1.2 },
+    // Points (with icon keys)
+    villes:{ file:'data/villes.geojson', kind:'point', color:'#f59e0b', icon:'villes', size:6.5 },
+    villages:{ file:'data/villages.geojson', kind:'point', color:'#f97316', icon:'villages', size:5.8 },
+    hameaux:{ file:'data/hameaux.geojson', kind:'point', color:'#fb7185', icon:'hameaux', size:5.2 },
+    towns:{ file:'data/towns.geojson', kind:'point', color:'#f97316', icon:'towns', size:6.0 },
+    offices_tourisme:{ file:'data/offices_tourisme.geojson', kind:'point', color:'#38bdf8', icon:'offices_tourisme', size:7.0 },
+    cols_sommets:{ file:'data/cols_sommets.geojson', kind:'point', color:'#a78bfa', icon:'cols_sommets', size:6.5 },
+    cascades:{ file:'data/cascades.geojson', kind:'point', color:'#60a5fa', icon:'cascades', size:6.5 },
+    panoramas:{ file:'data/panoramas.geojson', kind:'point', color:'#22d3ee', icon:'panoramas', size:6.5 },
+    sites_historiques:{ file:'data/sites_historiques.geojson', kind:'point', color:'#34d399', icon:'sites_historiques', size:6.5 },
+    sites_naturels:{ file:'data/sites_naturels.geojson', kind:'point', color:'#0284c7', icon:'sites_naturels', size:6.5 },
+    lieux_insolites:{ file:'data/lieux_insolites.geojson', kind:'point', color:'#ef4444', icon:'lieux_insolites', size:6.5 },
+    activites:{ file:'data/activites.geojson', kind:'point', color:'#eab308', icon:'activites', size:6.5 },
+    commerces:{ file:'data/commerces.geojson', kind:'point', color:'#f87171', icon:'commerces', size:6.5 },
+  };
+
+  // ICONS (inline SVG)
+  const ICONS = {"villes": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#f59e0b\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Vi</text></svg>", "villages": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#f97316\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Vg</text></svg>", "hameaux": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#fb7185\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Ha</text></svg>", "towns": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#f97316\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">To</text></svg>", "offices_tourisme": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#38bdf8\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">i</text></svg>", "cols_sommets": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#a78bfa\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">S</text></svg>", "cascades": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#60a5fa\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Ca</text></svg>", "panoramas": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#22d3ee\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">P</text></svg>", "sites_historiques": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#34d399\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">H</text></svg>", "sites_naturels": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#0284c7\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">N</text></svg>", "lieux_insolites": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#ef4444\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">\u2605</text></svg>", "activites": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#eab308\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Ac</text></svg>", "commerces": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <defs><filter id=\"s\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">  <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" flood-opacity=\"0.35\"/></filter></defs> <circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"#f87171\" stroke=\"#111827\" stroke-width=\"3\" filter=\"url(#s)\"/> <text x=\"32\" y=\"39\" font-family=\"Inter, Arial, sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#ffffff\" font-weight=\"700\">Co</text></svg>"};
+
+  const GEO = {};
+  const useCluster = true; // clustering enabled on desktop & mobile
+
+  map.on('load', async ()=>{
+    addTerrain();
+
+    // load icons
+    await Promise.all(Object.entries(ICONS).map(([k, uri])=> new Promise(res=>{
+      const img = new Image(); img.onload=()=>{ map.addImage('icon_'+k, img, { pixelRatio: 2 }); res(); };
+      img.src = uri;
+    })));
+
+    // load data
+    await Promise.all(Object.entries(SPECS).map(async ([name, def])=>{
+      try{ const r=await fetch(def.file); if(!r.ok) throw 0; GEO[name]=await r.json(); }
+      catch(e){ console.warn('Manquant:', name); disableCheckbox(name); }
+    }));
+
+    reapplyAll();
+
+    // UI
+    const panel=document.getElementById('panel');
+    document.getElementById('toggle').addEventListener('click', ()=> panel.classList.toggle('closed'));
+    document.getElementById('collapse').addEventListener('click', ()=> panel.classList.add('closed'));
+    document.querySelectorAll('input[data-layer]').forEach(cb=> cb.addEventListener('change', ()=> setLayerVisibility(cb.dataset.layer, cb.checked)));
+    document.getElementById('showAll').addEventListener('click', ()=> setAll(true));
+    document.getElementById('hideAll').addEventListener('click', ()=> setAll(false));
+    document.getElementById('fit').addEventListener('click', fitAllBounds);
+
+    const s=document.getElementById('search'), c=document.getElementById('clearSearch');
+    s.addEventListener('keydown', e=>{ if (e.key==='Enter') doSearch(s.value.trim()); });
+    c.addEventListener('click', ()=>{ s.value=''; toast('Recherche effacée'); });
+  });
+
+  function layersFor(name){
+    return ['fill_','line_','circle_','symbol_','label_','cluster_','cluster_cnt_'].map(p=>p+name);
+  }
+
+  function reapplyAll(){
+    for (const [name, def] of Object.entries(SPECS)){
+      const g=GEO[name]; if(!g) continue;
+      const src='src_'+name;
+      const isPoint = def.kind==='point';
+      const srcOpts = isPoint && useCluster ? { type:'geojson', data:g, cluster:true, clusterRadius:40, clusterMaxZoom:13 } : { type:'geojson', data:g };
+      if (!map.getSource(src)) map.addSource(src, srcOpts); else map.getSource(src).setData(g);
+
+      // clean previous
+      layersFor(name).forEach(id=>{ if (map.getLayer(id)) map.removeLayer(id); });
+
+      if (def.kind==='polygon') {
+        map.addLayer({id:'fill_'+name,type:'fill',source:src,paint:{'fill-color':def.color,'fill-opacity':def.fillOpacity??0.20}});
+        map.addLayer({id:'line_'+name,type:'line',source:src,paint:{'line-color':def.color,'line-width':def.strokeWeight??1.5}});
+      } else if (def.kind==='line') {
+        map.addLayer({id:'line_'+name,type:'line',source:src,paint:{'line-color':def.color,'line-width':def.width??2}});
+      } else if (def.kind==='point') {
+        // clusters
+        map.addLayer({
+          id:'cluster_'+name, type:'circle', source:src, filter:['has','point_count'],
+          paint:{
+            'circle-color':[
+              'step',['get','point_count'],
+              '#A7F3D0', 10, '#6EE7B7', 50, '#34D399', 150, '#10B981'
+            ],
+            'circle-radius':[
+              'step',['get','point_count'],
+              14, 10, 18, 50, 24, 150, 30
+            ],
+            'circle-stroke-color':'#0b0f1a','circle-stroke-width':1
+          }
+        });
+        map.addLayer({
+          id:'cluster_cnt_'+name, type:'symbol', source:src, filter:['has','point_count'],
+          layout:{ 'text-field':['get','point_count_abbreviated'], 'text-size':12 }
+        });
+
+        // unclustered points with icons
+        const sym={ 'icon-image':'icon_'+(def.icon||name), 'icon-size':['interpolate',['linear'],['zoom'],8,0.6,14,0.95], 'icon-allow-overlap':true, 'icon-anchor':'bottom' };
+        if (!map.hasImage('icon_'+(def.icon||name))) {
+          map.addLayer({id:'circle_'+name,type:'circle',source:src,filter:['!', ['has','point_count']],paint:{'circle-color':def.color,'circle-radius':['interpolate',['linear'],['zoom'],8,def.size??6,14,(def.size??6)*1.6],'circle-stroke-color':'#111827','circle-stroke-width':1}});
+        } else {
+          map.addLayer({ id:'symbol_'+name,type:'symbol',source:src,filter:['!', ['has','point_count']],layout:sym });
+        }
+        // labels
+        map.addLayer({
+          id:'label_'+name, type:'symbol', source:src, filter:['!', ['has','point_count']],
+          layout:{ 'text-field':['coalesce',['get','name'],['get','nom'],['get','title']],'text-size':['interpolate',['linear'],['zoom'],8,10,14,14],'text-offset':[0,1.1],'text-anchor':'top' },
+          paint:{ 'text-color':'#e5e7eb','text-halo-color':'#0b0f1a','text-halo-width':1.2,'text-halo-blur':0.2 }
+        });
+
+        // Popups + cursors
+        map.on('click','symbol_'+name,(e)=> onPointClick(e, name));
+        map.on('mouseenter','symbol_'+name,()=> map.getCanvas().style.cursor='pointer');
+        map.on('mouseleave','symbol_'+name,()=> map.getCanvas().style.cursor='');
+        map.on('click','circle_'+name,(e)=> onPointClick(e, name));
+        map.on('mouseenter','circle_'+name,()=> map.getCanvas().style.cursor='pointer');
+        map.on('mouseleave','circle_'+name,()=> map.getCanvas().style.cursor='');
+
+        // Cluster: zoom into cluster
+        map.on('click','cluster_'+name, (e)=>{
+          const features = map.queryRenderedFeatures(e.point, { layers: ['cluster_'+name] });
+          const clusterId = features[0].properties.cluster_id;
+          map.getSource('src_'+name).getClusterExpansionZoom(clusterId, (err, zoom)=>{
+            if (err) return;
+            map.easeTo({ center: features[0].geometry.coordinates, zoom });
+          });
+        });
+        map.on('mouseenter','cluster_'+name,()=> map.getCanvas().style.cursor='pointer');
+        map.on('mouseleave','cluster_'+name,()=> map.getCanvas().style.cursor='');
+      }
+      const cb=document.querySelector(`input[data-layer="{' + name + '}"]`);
+      setVisibility(name, cb && !cb.disabled ? cb.checked : false);
+    }
+    fitAllBounds();
+  }
+
+  function buildPopupContent(layer, p, lngLat){
+    // helpers
+    const safe = (v)=> v==null ? '' : String(v);
+    const line = (label, val)=> val ? `<div><strong>${label}:</strong> ${safe(val)}</div>` : '';
+    const gmaps = ()=> `<a class="chip" target="_blank" rel="noopener" href="https://www.google.com/maps?q=${lngLat.lat.toFixed(6)},${lngLat.lng.toFixed(6)}">Ouvrir dans Google Maps</a>`;
+    const name = p.name || p.nom || p.title || 'Lieu';
+    const type = p.type ? `<div class="chip">${safe(p.type)}</div>` : '';
+    const elev = p.elev || p.altitude;
+    const photo = p.photo ? `<img src="${safe(p.photo)}" alt="${safe(name)}" style="max-width:240px;border-radius:8px;margin:6px 0;" />` : '';
+    const url = p.url || p.website || p.site;
+    let extra = '';
+
+    if (layer==='offices_tourisme' || layer==='commerces'){
+      const adr = p.address || p.adresse;
+      const hours = p.hours || p.horaires;
+      const tel = p.phone || p.tel;
+      extra += line('Adresse', adr);
+      extra += line('Horaires', hours);
+      extra += line('Téléphone', tel);
+      if (url) extra += `<div><a target="_blank" rel="noopener" href="${safe(url)}">Site web</a></div>`;
+    } else if (layer==='cascades'){
+      const h = p.height || p.hauteur;
+      if (h) extra += line('Hauteur', h+' m');
+      if (url) extra += `<div><a target="_blank" rel="noopener" href="${safe(url)}">Plus d’infos</a></div>`;
+    } else if (layer==='cols_sommets' || layer==='panoramas'){
+      if (elev) extra += line('Altitude', elev+' m');
+      if (url) extra += `<div><a target="_blank" rel="noopener" href="${safe(url)}">Plus d’infos</a></div>`;
+    } else {
+      if (url) extra += `<div><a target="_blank" rel="noopener" href="${safe(url)}">Ouvrir le lien</a></div>`;
+    }
+
+    const desc = p.description ? `<div style="margin-top:4px">${safe(p.description)}</div>` : '';
+    const elevLine = (elev && layer!=='cols_sommets' && layer!=='panoramas') ? line('Alt.', elev+' m') : '';
+
+    return `<div class="popup">
+      <h4>${safe(name)}</h4>
+      ${type}
+      ${photo}
+      ${desc}
+      ${elevLine}
+      ${extra}
+      <div style="margin-top:6px">${gmaps()}</div>
+    </div>`;
+  }
+
+  function onPointClick(e, layerName){
+    const f = e.features[0];
+    const p = f.properties || {};
+    const html = buildPopupContent(layerName, p, e.lngLat);
+    new mapboxgl.Popup({ closeOnClick: true })
+      .setLngLat(e.lngLat)
+      .setHTML(html)
+      .addTo(map);
+  }
+
+  function setVisibility(name, show){
+    for (const id of layersFor(name)) { if (map.getLayer(id)) map.setLayoutProperty(id,'visibility',show?'visible':'none'); }
+  }
+  function setLayerVisibility(name, show){ setVisibility(name, show); }
+  function setAll(show){ document.querySelectorAll('input[data-layer]').forEach(cb=>{ if(!cb.disabled) cb.checked=show; setVisibility(cb.dataset.layer, show && !cb.disabled); }); }
+  function disableCheckbox(name){ const cb=document.querySelector(`input[data-layer="{' + name + '}"]`); if(cb){ cb.checked=false; cb.disabled=true; cb.parentElement.classList.add('muted'); } }
+
+  function fitAllBounds(){
+    const b = new mapboxgl.LngLatBounds(); let any=false;
+    for (const [name, def] of Object.entries(SPECS)){
+      const cb=document.querySelector(`input[data-layer="{' + name + '}"]`);
+      if(!cb||cb.disabled||!cb.checked) continue;
+      const g=GEO[name]; if(!g) continue;
+      traverse(g,(lng,lat)=>{ b.extend([lng,lat]); any=true; });
+    }
+    if(any) map.fitBounds(b, {padding:40,duration:800}); else toast("Aucune couche visible à recadrer.");
+  }
+  function traverse(g, fn){
+    if(!g) return;
+    const t=g.type;
+    if(t==='FeatureCollection') g.features.forEach(f=>traverse(f,fn));
+    else if(t==='Feature') traverse(g.geometry,fn);
+    else if(t==='Point') fn(g.coordinates[0],g.coordinates[1]);
+    else if(t==='MultiPoint'||t==='LineString') g.coordinates.forEach(c=>fn(c[0],c[1]));
+    else if(t==='MultiLineString'||t==='Polygon') g.coordinates.forEach(p=>p.forEach(c=>fn(c[0],c[1])));
+    else if(t==='MultiPolygon') g.coordinates.forEach(poly=>poly.forEach(p=>p.forEach(c=>fn(c[0],c[1]))));
+  }
+
+  function doSearch(q){
+    if(!q) { toast("Tape le nom d’un lieu ✍️"); return; }
+    const needle=q.toLowerCase(); let found=null, center=null;
+    for(const [name, def] of Object.entries(SPECS)){
+      if(def.kind!=='point'||!GEO[name]) continue;
+      const feats=GEO[name].features||[];
+      for(const f of feats){
+        const p=f.properties||{}; const txt=(p.name||p.nom||p.title||'').toString().toLowerCase();
+        if(txt.includes(needle)) { found=f; center=f.geometry.coordinates; break; }
+      }
+      if(found) break;
+    }
+    if(!found) { toast("Aucun résultat 😕"); return; }
+    map.easeTo({ center, zoom: Math.max(map.getZoom(), 12), duration: 700 });
+    toast("Trouvé : "+q);
+  }
+
+  function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._tmr); t._tmr=setTimeout(()=> t.style.display='none', 2500); }
+
+  // Boot
+  map.on('load', ()=>{ addTerrain(); });
+</script>
+</body>
+</html>

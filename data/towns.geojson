@@ -1,0 +1,6082 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.023911,
+          3.23631
+        ]
+      },
+      "properties": {
+        "name": "Barow",
+        "pcode": "NA-3802-U12-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8681,
+          4.0364
+        ]
+      },
+      "properties": {
+        "name": "Saafi Rooble",
+        "pcode": "NB-3814-Z09-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.27782,
+          3.9354
+        ]
+      },
+      "properties": {
+        "name": "Barsi",
+        "pcode": "NA-3802-B18-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.12479,
+          4.03858
+        ]
+      },
+      "properties": {
+        "name": "Buulow Hawo",
+        "pcode": "NB-3814-Z14-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2601,
+          4.01906
+        ]
+      },
+      "properties": {
+        "name": "Godli",
+        "pcode": "NB-3814-Z17-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37625,
+          3.96848
+        ]
+      },
+      "properties": {
+        "name": "Janaay",
+        "pcode": "NA-3802-A20-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.05349,
+          4.18532
+        ]
+      },
+      "properties": {
+        "name": "Yabyab",
+        "pcode": "NB-3814-V13-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97902,
+          3.87909
+        ]
+      },
+      "properties": {
+        "name": "Bonta Furoy",
+        "pcode": "NA-3802-C11-008",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.520564,
+          3.817635
+        ]
+      },
+      "properties": {
+        "name": "Buulo Dhowdhow",
+        "pcode": "NA-3802-E23-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.02074,
+          4.02398
+        ]
+      },
+      "properties": {
+        "name": "Abuurow Edin",
+        "pcode": "NB-3814-Z12-012",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.275558,
+          3.97529
+        ]
+      },
+      "properties": {
+        "name": "Buulo Fajir",
+        "pcode": "NA-3802-A18-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.99667,
+          3.92507
+        ]
+      },
+      "properties": {
+        "name": "Eel Hej",
+        "pcode": "NA-3802-B11-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0103,
+          3.99412
+        ]
+      },
+      "properties": {
+        "name": "Waagdoor",
+        "pcode": "NA-3802-A12-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.00352,
+          4.12885
+        ]
+      },
+      "properties": {
+        "name": "Lugay Weene",
+        "pcode": "NB-3814-W12-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2327,
+          3.3015
+        ]
+      },
+      "properties": {
+        "name": "Digto",
+        "pcode": "NA-3802-S17-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.83317,
+          3.53831
+        ]
+      },
+      "properties": {
+        "name": "Bowka",
+        "pcode": "NA-3802-M08-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.05685,
+          3.5316
+        ]
+      },
+      "properties": {
+        "name": "Buulo Sabar",
+        "pcode": "NA-3802-M13-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.45569,
+          3.90931
+        ]
+      },
+      "properties": {
+        "name": "Herarow",
+        "pcode": "NA-3802-C22-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.57172,
+          3.76927
+        ]
+      },
+      "properties": {
+        "alt_name": "Qonle",
+        "name": "Aw-Qoonle",
+        "pcode": "NA-3802-F24-004",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9495894,
+          3.9964568
+        ]
+      },
+      "properties": {
+        "name": "Dugsiilow",
+        "pcode": "NA-3802-A10-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4429076,
+          3.8423322
+        ]
+      },
+      "properties": {
+        "name": "Duqsiilow",
+        "pcode": "NA-3802-D21-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.42461,
+          3.83879
+        ]
+      },
+      "properties": {
+        "name": "Hamiinoy",
+        "pcode": "NA-3802-D21-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.201401,
+          3.5791
+        ]
+      },
+      "properties": {
+        "name": "Magdaad",
+        "pcode": "NA-3802-L16-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2707546,
+          4.1363528
+        ]
+      },
+      "properties": {
+        "name": "Afgooye أفجوي",
+        "name:ar": "أفجوي",
+        "name:en": "Afgooye",
+        "name:fr": "Afgooye",
+        "pcode": "NB-3814-W17-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.11146,
+          3.95743
+        ]
+      },
+      "properties": {
+        "alt_name": "Jilibey",
+        "name": "Jilibow Yerow",
+        "pcode": "NA-3802-B14-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3457847,
+          4.0005564
+        ]
+      },
+      "properties": {
+        "name": "Goobari",
+        "pcode": "NB-3814-Z19-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.751099,
+          3.5522
+        ]
+      },
+      "properties": {
+        "name": "Zauel",
+        "pcode": "NA-3802-L06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13379,
+          4.04337
+        ]
+      },
+      "properties": {
+        "name": "Buulo Jadiid",
+        "pcode": "NB-3814-Y14-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.76739,
+          3.70351
+        ]
+      },
+      "properties": {
+        "name": "Gebley Boqolka",
+        "pcode": "NA-3802-H06-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.75718,
+          3.53851
+        ]
+      },
+      "properties": {
+        "alt_name": "Labatan Jirow",
+        "name": "Labaatan Jirow",
+        "pcode": "NA-3802-M06-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.94929,
+          3.89776
+        ]
+      },
+      "properties": {
+        "name": "Madoha",
+        "pcode": "NA-3802-C10-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.02963,
+          4.20229
+        ]
+      },
+      "properties": {
+        "name": "Bibiyow",
+        "pcode": "NB-3814-V12-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.897911,
+          3.52842
+        ]
+      },
+      "properties": {
+        "name": "Korar",
+        "pcode": "NA-3802-M09-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.32348,
+          3.91399
+        ]
+      },
+      "properties": {
+        "name": "Hoobishe",
+        "pcode": "NA-3802-C19-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.86731,
+          3.56119
+        ]
+      },
+      "properties": {
+        "name": "Erjeegle",
+        "pcode": "NA-3802-L09-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.816181,
+          3.90373
+        ]
+      },
+      "properties": {
+        "name": "Faarjarley Wiila",
+        "pcode": "NA-3802-C07-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9418695,
+          3.9444515
+        ]
+      },
+      "properties": {
+        "name": "Abal",
+        "pcode": "NA-3802-B10-003",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.74821,
+          3.67371
+        ]
+      },
+      "properties": {
+        "name": "Henqeri",
+        "pcode": "NA-3802-H06-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7817,
+          3.6501
+        ]
+      },
+      "properties": {
+        "name": "Kashida",
+        "pcode": "NA-3802-J07-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.23492,
+          3.98799
+        ]
+      },
+      "properties": {
+        "name": "Oolontoloow",
+        "pcode": "NA-3802-A17-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.51857,
+          3.8155
+        ]
+      },
+      "properties": {
+        "alt_name": "Dhema",
+        "name": "Dheemo",
+        "pcode": "NA-3802-E23-006",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.798698,
+          3.5479
+        ]
+      },
+      "properties": {
+        "name": "Fiinka Ware",
+        "pcode": "NA-3802-L07-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0538077,
+          3.9173853
+        ]
+      },
+      "properties": {
+        "name": "Buulo Iri",
+        "pcode": "NA-3802-B13-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.76422,
+          3.70777
+        ]
+      },
+      "properties": {
+        "name": "Buri",
+        "pcode": "NA-3802-H06-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3770107,
+          4.078688
+        ]
+      },
+      "properties": {
+        "name": "Cali Makiino",
+        "pcode": "NB-3814-Y20-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8465382,
+          3.924433
+        ]
+      },
+      "properties": {
+        "alt_name": "Geed Buureed",
+        "name": "Geed Bured",
+        "pcode": "NA-3802-B08-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.59846,
+          4.04529
+        ]
+      },
+      "properties": {
+        "name": "Aboy Abowle",
+        "pcode": "NB-3814-Y25-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08472,
+          4.02284
+        ]
+      },
+      "properties": {
+        "name": "Abersale",
+        "pcode": "NB-3814-Z13-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.30212,
+          3.96025
+        ]
+      },
+      "properties": {
+        "name": "Hubto",
+        "pcode": "NA-3802-A18-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.34816,
+          3.86446
+        ]
+      },
+      "properties": {
+        "name": "Ban Daran",
+        "pcode": "NA-3802-D19-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3689286,
+          3.9823307
+        ]
+      },
+      "properties": {
+        "name": "El Garmet",
+        "pcode": "NA-3802-A20-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0473311,
+          3.9929843
+        ]
+      },
+      "properties": {
+        "name": "Hoogir",
+        "pcode": "NA-3802-A13-004",
+        "place": "village",
+        "source": "FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.817101,
+          4.3813
+        ]
+      },
+      "properties": {
+        "name": "Gheider Moro Mererti",
+        "pcode": "NB-3814-Q07-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.46728,
+          4.02319
+        ]
+      },
+      "properties": {
+        "name": "Doon Garsle",
+        "pcode": "NB-3814-Z22-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.531426,
+          3.86447
+        ]
+      },
+      "properties": {
+        "name": "Buulo Jadiid 4",
+        "pcode": "NA-3802-D23-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0243269,
+          4.0094281
+        ]
+      },
+      "properties": {
+        "name": "Haway Yaroy",
+        "pcode": "NB-3814-Z12-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.354722,
+          4.1051381
+        ]
+      },
+      "properties": {
+        "alt_name": "Gudi",
+        "name": "Gudo",
+        "pcode": "NB-3814-X19-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9010402,
+          4.2172615
+        ]
+      },
+      "properties": {
+        "alt_name": "Gomori",
+        "name": "Gomorey",
+        "pcode": "NB-3814-U09-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.59525,
+          3.75376
+        ]
+      },
+      "properties": {
+        "name": "Biilaley",
+        "pcode": "NA-3802-F25-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.51977,
+          4.07475
+        ]
+      },
+      "properties": {
+        "name": "Tumaalka",
+        "pcode": "NB-3814-Y23-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.890739,
+          3.6289
+        ]
+      },
+      "properties": {
+        "name": "Qomari",
+        "pcode": "NA-3802-J09-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.85996,
+          3.59295
+        ]
+      },
+      "properties": {
+        "alt_name": "Aadan Waraabow",
+        "name": "Eedin Waraabow",
+        "pcode": "NA-3802-K08-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.828499,
+          4.328
+        ]
+      },
+      "properties": {
+        "name": "Moro Uanaile",
+        "pcode": "NB-3814-S08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7718294,
+          3.7397783
+        ]
+      },
+      "properties": {
+        "name": "Madax Maroodi",
+        "pcode": "NA-3802-G06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9988639,
+          3.9513849
+        ]
+      },
+      "properties": {
+        "alt_name": "Sarman",
+        "name": "Sarmaan",
+        "pcode": "NA-3802-B12-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.84966,
+          3.97257
+        ]
+      },
+      "properties": {
+        "name": "Beer-Qoobey",
+        "pcode": "NA-3802-A08-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.82096,
+          4.0477
+        ]
+      },
+      "properties": {
+        "name": "Falan Faay",
+        "pcode": "NB-3814-Y08-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.193363,
+          3.955635
+        ]
+      },
+      "properties": {
+        "name": "Doygab",
+        "pcode": "NA-3802-B16-002",
+        "place": "village",
+        "source": "INGO - 2010",
+        "verified": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9937118,
+          3.9073091
+        ]
+      },
+      "properties": {
+        "name": "Shabaka",
+        "pcode": "NA-3802-C11-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9027793,
+          3.9909006
+        ]
+      },
+      "properties": {
+        "name": "Daweelow",
+        "pcode": "NA-3802-A09-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.74551,
+          3.55288
+        ]
+      },
+      "properties": {
+        "name": "Mareegi",
+        "pcode": "NA-3802-L06-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.139707,
+          3.974325
+        ]
+      },
+      "properties": {
+        "name": "Garer Yeroy",
+        "pcode": "NA-3802-A15-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.51143,
+          3.86275
+        ]
+      },
+      "properties": {
+        "name": "Hubudhi",
+        "pcode": "NA-3802-D23-004",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.85519,
+          3.60583
+        ]
+      },
+      "properties": {
+        "name": "Dudumay",
+        "pcode": "NA-3802-K08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0792848,
+          3.9751388
+        ]
+      },
+      "properties": {
+        "name": "Buulo Mumin",
+        "pcode": "NA-3802-A13-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0131454,
+          4.031972
+        ]
+      },
+      "properties": {
+        "name": "Aroos Eber",
+        "pcode": "NB-3814-Z12-013",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.81897,
+          3.68088
+        ]
+      },
+      "properties": {
+        "alt_name": "Faajir",
+        "name": "Faajar",
+        "pcode": "NA-3802-H08-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8050914,
+          4.0715264
+        ]
+      },
+      "properties": {
+        "name": "Waney",
+        "pcode": "NB-3814-Y07-001",
+        "place": "village",
+        "source": "UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8803708,
+          3.5324751
+        ]
+      },
+      "properties": {
+        "name": "Tagaal",
+        "pcode": "NA-3802-M09-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0938073,
+          4.0203188
+        ]
+      },
+      "properties": {
+        "alt_name": "Busley Sss",
+        "name": "Busley",
+        "pcode": "NB-3814-Z14-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.794085,
+          3.6224872
+        ]
+      },
+      "properties": {
+        "name": "Meleglow",
+        "pcode": "NA-3802-K07-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0944301,
+          4.1308691
+        ]
+      },
+      "properties": {
+        "alt_name": "Dudumbble",
+        "name": "Dudumaale",
+        "pcode": "NB-3814-W14-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.95863,
+          3.56953
+        ]
+      },
+      "properties": {
+        "name": "Jiumdaale",
+        "pcode": "NA-3802-L11-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.235985,
+          3.985712
+        ]
+      },
+      "properties": {
+        "name": "Barkale",
+        "pcode": "NA-3802-A17-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.911861,
+          4.12423
+        ]
+      },
+      "properties": {
+        "name": "Madax Waraabe",
+        "pcode": "NB-3814-X10-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01251,
+          4.01398
+        ]
+      },
+      "properties": {
+        "name": "Holiskaa",
+        "pcode": "NB-3814-Z12-014",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.40719,
+          4.12577
+        ]
+      },
+      "properties": {
+        "alt_name": "Eeliduug",
+        "name": "Eeli Duug",
+        "pcode": "NB-3814-W20-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.07177,
+          4.00508
+        ]
+      },
+      "properties": {
+        "name": "Ban Maroole",
+        "pcode": "NB-3814-Z13-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.855591,
+          3.64454
+        ]
+      },
+      "properties": {
+        "name": "Doomaar",
+        "pcode": "NA-3802-J08-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4881,
+          3.8016
+        ]
+      },
+      "properties": {
+        "name": "Aboorow",
+        "pcode": "NA-3802-E22-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.965229,
+          4.01921
+        ]
+      },
+      "properties": {
+        "name": "Iilay",
+        "pcode": "NB-3814-Z11-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2717,
+          4.16492
+        ]
+      },
+      "properties": {
+        "name": "Darbaas",
+        "pcode": "NB-3814-W17-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.55389,
+          3.76641
+        ]
+      },
+      "properties": {
+        "name": "Buulo Dhato",
+        "pcode": "NA-3802-F24-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.84257,
+          4.13231
+        ]
+      },
+      "properties": {
+        "name": "Tubooy",
+        "pcode": "NB-3814-W08-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.00023,
+          3.96166
+        ]
+      },
+      "properties": {
+        "name": "Sigaloow",
+        "pcode": "NA-3802-A12-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.858528,
+          3.65461
+        ]
+      },
+      "properties": {
+        "name": "Abag Dheere",
+        "pcode": "NA-3802-J08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.09689,
+          4.41844
+        ]
+      },
+      "properties": {
+        "name": "Gudoqor",
+        "pcode": "NB-3814-P14-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.15692,
+          4.03852
+        ]
+      },
+      "properties": {
+        "name": "Yowkoyow",
+        "pcode": "NB-3814-Z15-005",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.749401,
+          3.6307
+        ]
+      },
+      "properties": {
+        "name": "Bulo Haldid",
+        "pcode": "NA-3802-J06-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.069359,
+          3.30187
+        ]
+      },
+      "properties": {
+        "name": "Buulo Marer",
+        "pcode": "NA-3802-S13-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.49707,
+          3.78092
+        ]
+      },
+      "properties": {
+        "name": "Waki 1",
+        "pcode": "NA-3802-F22-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.49121,
+          4.01633
+        ]
+      },
+      "properties": {
+        "name": "Kurumrag",
+        "pcode": "NB-3814-Z22-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13795,
+          4.04217
+        ]
+      },
+      "properties": {
+        "name": "Buulo Ibdow",
+        "pcode": "NB-3814-Y15-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.14022,
+          4.04282
+        ]
+      },
+      "properties": {
+        "name": "Bargeley",
+        "pcode": "NB-3814-Y15-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.25136,
+          4.01873
+        ]
+      },
+      "properties": {
+        "name": "Balow",
+        "pcode": "NB-3814-Z17-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2510016,
+          4.2373036
+        ]
+      },
+      "properties": {
+        "name": "Xiirey",
+        "pcode": "NB-3814-U17-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.99072,
+          4.02403
+        ]
+      },
+      "properties": {
+        "name": "Moro Fuur",
+        "pcode": "NB-3814-Z11-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8722,
+          3.5711
+        ]
+      },
+      "properties": {
+        "name": "Futuug",
+        "pcode": "NA-3802-L09-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1426,
+          4.04802
+        ]
+      },
+      "properties": {
+        "name": "Buulo Dhurshen",
+        "pcode": "NB-3814-Y15-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0958259,
+          4.190858
+        ]
+      },
+      "properties": {
+        "name": "Ilkuul",
+        "pcode": "NB-3814-V14-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.819,
+          3.6486
+        ]
+      },
+      "properties": {
+        "name": "Duubugaas",
+        "pcode": "NA-3802-J08-003",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.735291,
+          3.65506
+        ]
+      },
+      "properties": {
+        "name": "Barkale",
+        "pcode": "NA-3802-J06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9981,
+          3.2689
+        ]
+      },
+      "properties": {
+        "fixme": "abandoned?",
+        "name": "Yageg",
+        "pcode": "NA-3802-T11-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0130571,
+          3.991255
+        ]
+      },
+      "properties": {
+        "name": "Uduullow",
+        "pcode": "NA-3802-A12-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9917501,
+          4.0093512
+        ]
+      },
+      "properties": {
+        "name": "Kidhikoy",
+        "pcode": "NB-3814-Z11-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.55253,
+          3.75768
+        ]
+      },
+      "properties": {
+        "name": "Abaqlow",
+        "pcode": "NA-3802-F24-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.90164,
+          4.00485
+        ]
+      },
+      "properties": {
+        "name": "Suurow",
+        "pcode": "NB-3814-Z09-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.56859,
+          4.01132
+        ]
+      },
+      "properties": {
+        "name": "Nebedey",
+        "pcode": "NB-3814-Z24-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.03808,
+          4.18871
+        ]
+      },
+      "properties": {
+        "name": "War Guuda",
+        "pcode": "NB-3814-V12-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.46371,
+          3.8948
+        ]
+      },
+      "properties": {
+        "name": "Doon Mundili",
+        "pcode": "NA-3802-C22-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.18172,
+          3.9842
+        ]
+      },
+      "properties": {
+        "name": "Moro Yuble",
+        "pcode": "NA-3802-A15-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.719749,
+          3.68077
+        ]
+      },
+      "properties": {
+        "name": "Odomow",
+        "pcode": "NA-3802-H05-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.96236,
+          3.87467
+        ]
+      },
+      "properties": {
+        "name": "Madooda",
+        "pcode": "NA-3802-D11-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.849941,
+          3.58544
+        ]
+      },
+      "properties": {
+        "name": "Cashur",
+        "pcode": "NA-3802-K08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.344799,
+          3.88266
+        ]
+      },
+      "properties": {
+        "name": "Drersin",
+        "pcode": "NA-3802-C19-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1595,
+          3.99774
+        ]
+      },
+      "properties": {
+        "name": "Ramidey",
+        "pcode": "NA-3802-A15-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.52439,
+          4.01033
+        ]
+      },
+      "properties": {
+        "name": "Balowka",
+        "pcode": "NB-3814-Z23-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.99583,
+          4.18374
+        ]
+      },
+      "properties": {
+        "alt_name": "Dhanful",
+        "name": "Doonfuul",
+        "pcode": "NB-3814-V11-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.912617,
+          4.122906
+        ]
+      },
+      "properties": {
+        "name": "Gaabaney",
+        "pcode": "NB-3814-X10-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0875766,
+          3.9743149
+        ]
+      },
+      "properties": {
+        "alt_name": "Korkor",
+        "name": "Eel Big",
+        "pcode": "NA-3802-A13-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.50395,
+          3.85946
+        ]
+      },
+      "properties": {
+        "name": "Gareradi",
+        "pcode": "NA-3802-D23-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7755481,
+          3.6407288
+        ]
+      },
+      "properties": {
+        "name": "Buulo Fajir",
+        "pcode": "NA-3802-J07-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.72074,
+          3.72565
+        ]
+      },
+      "properties": {
+        "name": "Banmeegag",
+        "pcode": "NA-3802-G05-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3986544,
+          4.0462249
+        ]
+      },
+      "properties": {
+        "alt_name": "Deymo Samo",
+        "name": "Deemo Same",
+        "pcode": "NB-3814-Y20-004",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8324,
+          3.62894
+        ]
+      },
+      "properties": {
+        "name": "Boorow",
+        "pcode": "NA-3802-J08-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.17646,
+          4.03289
+        ]
+      },
+      "properties": {
+        "name": "Dhariigada Yaa",
+        "pcode": "NB-3814-Z15-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.03148,
+          4.00434
+        ]
+      },
+      "properties": {
+        "name": "Gudale",
+        "pcode": "NB-3814-Z12-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.87426,
+          4.03602
+        ]
+      },
+      "properties": {
+        "name": "Lafale",
+        "pcode": "NB-3814-Z09-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.92244,
+          3.60488
+        ]
+      },
+      "properties": {
+        "name": "Biyoley",
+        "pcode": "NA-3802-K10-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.30103,
+          3.92151
+        ]
+      },
+      "properties": {
+        "name": "Kayaane",
+        "pcode": "NA-3802-B18-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.71853,
+          3.65104
+        ]
+      },
+      "properties": {
+        "name": "Nurow-Yarow",
+        "pcode": "NA-3802-J05-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.05994,
+          4.01856
+        ]
+      },
+      "properties": {
+        "name": "Dedbanley",
+        "pcode": "NB-3814-Z13-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.98367,
+          3.91318
+        ]
+      },
+      "properties": {
+        "name": "Eel Gethet",
+        "pcode": "NA-3802-C11-007",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.02328,
+          3.90991
+        ]
+      },
+      "properties": {
+        "name": "Min Dhoobi",
+        "pcode": "NA-3802-C12-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16105,
+          4.02941
+        ]
+      },
+      "properties": {
+        "name": "Jirow",
+        "pcode": "NB-3814-Z15-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16063,
+          4.00177
+        ]
+      },
+      "properties": {
+        "name": "Banyale",
+        "pcode": "NB-3814-Z15-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.87304,
+          3.55335
+        ]
+      },
+      "properties": {
+        "name": "Goofka",
+        "pcode": "NA-3802-L09-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0140355,
+          3.9899351
+        ]
+      },
+      "properties": {
+        "name": "Etiyal",
+        "pcode": "NA-3802-A12-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8121,
+          3.54462
+        ]
+      },
+      "properties": {
+        "name": "Finka-Fuuri",
+        "pcode": "NA-3802-L07-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16462,
+          4.03961
+        ]
+      },
+      "properties": {
+        "name": "Oorey",
+        "pcode": "NB-3814-Z15-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.42908,
+          3.9444
+        ]
+      },
+      "properties": {
+        "name": "Hawaal Kabay",
+        "pcode": "NA-3802-B21-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.048199,
+          3.2791
+        ]
+      },
+      "properties": {
+        "name": "Lolisce",
+        "pcode": "NA-3802-T13-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.74929,
+          3.65059
+        ]
+      },
+      "properties": {
+        "name": "Buulo Jadiid",
+        "pcode": "NA-3802-J06-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8068982,
+          3.5931285
+        ]
+      },
+      "properties": {
+        "name": "Galoole",
+        "pcode": "NA-3802-K07-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.43517,
+          3.83434
+        ]
+      },
+      "properties": {
+        "name": "Qarsooy",
+        "pcode": "NA-3802-D21-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3107425,
+          4.0249307
+        ]
+      },
+      "properties": {
+        "name": "Eel Qaramet",
+        "pcode": "NB-3814-Z18-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08978,
+          4.03874
+        ]
+      },
+      "properties": {
+        "name": "Gaanuugle",
+        "pcode": "NB-3814-Z13-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0419608,
+          3.9147835
+        ]
+      },
+      "properties": {
+        "name": "Asturow",
+        "pcode": "NA-3802-C12-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.04507,
+          4.18633
+        ]
+      },
+      "properties": {
+        "name": "Geesiiloow",
+        "pcode": "NB-3814-V12-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16964,
+          3.25961
+        ]
+      },
+      "properties": {
+        "name": "Beer Shabeel",
+        "pcode": "NA-3802-T15-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13761,
+          4.03765
+        ]
+      },
+      "properties": {
+        "name": "Gareero Ween",
+        "pcode": "NB-3814-Z15-009",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.15656,
+          4.03888
+        ]
+      },
+      "properties": {
+        "name": "Ciyow Koyow",
+        "pcode": "NB-3814-Z15-010",
+        "place": "village",
+        "source": "FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.44345,
+          4.02749
+        ]
+      },
+      "properties": {
+        "name": "El Haawey",
+        "pcode": "NB-3814-Z21-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5854,
+          3.99201
+        ]
+      },
+      "properties": {
+        "name": "Mesaar",
+        "pcode": "NA-3802-A24-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.780701,
+          3.6021
+        ]
+      },
+      "properties": {
+        "name": "Aw Aadan Fayi",
+        "pcode": "NA-3802-K07-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.50678,
+          3.78264
+        ]
+      },
+      "properties": {
+        "name": "Waki 2",
+        "pcode": "NA-3802-F23-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.19317,
+          4.03484
+        ]
+      },
+      "properties": {
+        "name": "Kebishole",
+        "pcode": "NB-3814-Z16-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.19732,
+          4.00468
+        ]
+      },
+      "properties": {
+        "name": "Mora Garas",
+        "pcode": "NB-3814-Z16-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.82818,
+          3.66512
+        ]
+      },
+      "properties": {
+        "name": "Garas Dhere",
+        "pcode": "NA-3802-J08-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.349751,
+          3.91594
+        ]
+      },
+      "properties": {
+        "name": "Cashur",
+        "pcode": "NA-3802-C19-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.27461,
+          3.9524
+        ]
+      },
+      "properties": {
+        "name": "Buur Gaboy",
+        "pcode": "NA-3802-B18-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.20308,
+          4.00986
+        ]
+      },
+      "properties": {
+        "name": "Ered",
+        "pcode": "NB-3814-Z16-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.818729,
+          3.9293
+        ]
+      },
+      "properties": {
+        "name": "Olondow",
+        "pcode": "NA-3802-B08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9962315,
+          4.4924071
+        ]
+      },
+      "properties": {
+        "name": "Gendiyeer",
+        "pcode": "NB-3814-N11-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.331756,
+          4.018844
+        ]
+      },
+      "properties": {
+        "alt_name": "Aulojadiid",
+        "name": "Buulo Jadiid",
+        "pcode": "NB-3814-Z19-002",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13224,
+          4.03595
+        ]
+      },
+      "properties": {
+        "name": "Gerer Yeroy",
+        "pcode": "NB-3814-Z14-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0593297,
+          4.0106358
+        ]
+      },
+      "properties": {
+        "name": "Shabelow",
+        "pcode": "NB-3814-Z13-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.28789,
+          3.91789
+        ]
+      },
+      "properties": {
+        "name": "Rer Aw Hussenow",
+        "pcode": "NA-3802-B18-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80105,
+          3.59976
+        ]
+      },
+      "properties": {
+        "name": "Eedin Faay",
+        "pcode": "NA-3802-K07-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.47904,
+          3.87316
+        ]
+      },
+      "properties": {
+        "alt_name": "Hugoy",
+        "name": "Hugey",
+        "pcode": "NA-3802-D22-002",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.77225,
+          3.6915
+        ]
+      },
+      "properties": {
+        "name": "Adoomow",
+        "pcode": "NA-3802-H06-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.52916,
+          4.04059
+        ]
+      },
+      "properties": {
+        "name": "Dhujo",
+        "pcode": "NB-3814-Z23-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9222946,
+          4.13182
+        ]
+      },
+      "properties": {
+        "name": "Buulo Libaan",
+        "pcode": "NB-3814-W10-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1127767,
+          4.1371741
+        ]
+      },
+      "properties": {
+        "name": "Reer Aw Mamud",
+        "pcode": "NB-3814-W14-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9091053,
+          4.3014725
+        ]
+      },
+      "properties": {
+        "name": "Aboore",
+        "pcode": "NB-3814-S09-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9802093,
+          3.9129226
+        ]
+      },
+      "properties": {
+        "name": "Uunka Maadi",
+        "pcode": "NA-3802-C11-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.173649,
+          3.9737
+        ]
+      },
+      "properties": {
+        "name": "Gaal Madoobe",
+        "pcode": "NA-3802-A15-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.12555,
+          4.15083
+        ]
+      },
+      "properties": {
+        "alt_name": "Shiida",
+        "name": "Shida Were",
+        "pcode": "NB-3814-W14-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8559404,
+          4.0047461
+        ]
+      },
+      "properties": {
+        "name": "Gareere-Gawaan",
+        "pcode": "NB-3814-Z08-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.36094,
+          4.17191
+        ]
+      },
+      "properties": {
+        "name": "Bakaarole",
+        "pcode": "NB-3814-V19-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.902,
+          3.96071
+        ]
+      },
+      "properties": {
+        "name": "Kunya",
+        "pcode": "NA-3802-A09-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.986019,
+          3.91192
+        ]
+      },
+      "properties": {
+        "name": "Unramade",
+        "pcode": "NA-3802-C11-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97918,
+          3.90888
+        ]
+      },
+      "properties": {
+        "name": "Durow",
+        "pcode": "NA-3802-C11-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80255,
+          3.9448
+        ]
+      },
+      "properties": {
+        "alt_name": "Orugley",
+        "name": "Orogley",
+        "pcode": "NA-3802-B07-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4047449,
+          3.8454458
+        ]
+      },
+      "properties": {
+        "name": "Bulo Hadija",
+        "pcode": "NA-3802-D20-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.95962,
+          3.59304
+        ]
+      },
+      "properties": {
+        "name": "Adenwaraabow",
+        "pcode": "NA-3802-K11-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3988179,
+          3.9409632
+        ]
+      },
+      "properties": {
+        "name": "Hawal Kare",
+        "pcode": "NA-3802-B20-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.59903,
+          3.97991
+        ]
+      },
+      "properties": {
+        "alt_name": "Tieglow",
+        "name": "Misir",
+        "pcode": "NA-3802-A25-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.03315,
+          3.26022
+        ]
+      },
+      "properties": {
+        "name": "Rama",
+        "pcode": "NA-3802-T12-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.31749,
+          3.91527
+        ]
+      },
+      "properties": {
+        "name": "Gunri",
+        "pcode": "NA-3802-C18-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.94114,
+          4.00101
+        ]
+      },
+      "properties": {
+        "alt_name": "Baana",
+        "name": "Bana",
+        "pcode": "NB-3814-Z10-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.88569,
+          4.00666
+        ]
+      },
+      "properties": {
+        "name": "Abaarey",
+        "pcode": "NB-3814-Z09-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.00584,
+          4.02757
+        ]
+      },
+      "properties": {
+        "name": "Qoryleedey",
+        "pcode": "NB-3814-Z12-010",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.52969,
+          3.77861
+        ]
+      },
+      "properties": {
+        "name": "Edaayin",
+        "pcode": "NA-3802-F23-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8733,
+          3.95318
+        ]
+      },
+      "properties": {
+        "name": "Haji Ali",
+        "pcode": "NA-3802-B09-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3406808,
+          3.8786389
+        ]
+      },
+      "properties": {
+        "name": "Buulo Issaq",
+        "pcode": "NA-3802-C19-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.44422,
+          4.1004
+        ]
+      },
+      "properties": {
+        "name": "War Kulunle",
+        "pcode": "NB-3814-X21-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37196,
+          3.97102
+        ]
+      },
+      "properties": {
+        "name": "Goberreh",
+        "pcode": "NA-3802-A20-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1768536,
+          4.0298864
+        ]
+      },
+      "properties": {
+        "name": "Dhay Dhate Rer Aw Mamud",
+        "pcode": "NB-3814-Z15-008",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9336453,
+          3.9305987
+        ]
+      },
+      "properties": {
+        "name": "Moqor",
+        "pcode": "NA-3802-B10-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.52712,
+          4.07107
+        ]
+      },
+      "properties": {
+        "name": "Misqaale",
+        "pcode": "NB-3814-Y23-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.04817,
+          3.92962
+        ]
+      },
+      "properties": {
+        "alt_name": "Galol",
+        "name": "Galool",
+        "pcode": "NA-3802-B13-003",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.96197,
+          3.87644
+        ]
+      },
+      "properties": {
+        "name": "Faratiyow",
+        "pcode": "NA-3802-C11-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2315148,
+          4.1428928
+        ]
+      },
+      "properties": {
+        "name": "Number Four",
+        "pcode": "NB-3814-W17-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.58551,
+          3.74914
+        ]
+      },
+      "properties": {
+        "name": "Harar Gaafow",
+        "pcode": "NA-3802-G24-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97782,
+          3.97493
+        ]
+      },
+      "properties": {
+        "name": "Dina",
+        "pcode": "NA-3802-A11-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80267,
+          3.54567
+        ]
+      },
+      "properties": {
+        "name": "Ban-Bara",
+        "pcode": "NA-3802-L07-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.24939,
+          3.95301
+        ]
+      },
+      "properties": {
+        "name": "Barkadle",
+        "pcode": "NA-3802-B17-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0668,
+          4.24609
+        ]
+      },
+      "properties": {
+        "name": "Waraabaale",
+        "pcode": "NB-3814-U13-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.83941,
+          3.51658
+        ]
+      },
+      "properties": {
+        "name": "Abagle",
+        "pcode": "NA-3802-M08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0766541,
+          4.1820915
+        ]
+      },
+      "properties": {
+        "name": "Tijeegta",
+        "pcode": "NB-3814-V13-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.14003,
+          4.04642
+        ]
+      },
+      "properties": {
+        "name": "Kaaysiney",
+        "pcode": "NB-3814-Y15-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.346494,
+          3.883167
+        ]
+      },
+      "properties": {
+        "alt_name": "Ooraar",
+        "name": "Oorar",
+        "pcode": "NA-3802-C19-003",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.54199,
+          3.83276
+        ]
+      },
+      "properties": {
+        "name": "Ruqa",
+        "pcode": "NA-3802-E23-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.247761,
+          4.16143
+        ]
+      },
+      "properties": {
+        "name": "Gadey",
+        "pcode": "NB-3814-W17-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.27307,
+          4.01915
+        ]
+      },
+      "properties": {
+        "name": "Doon Bare",
+        "pcode": "NB-3814-Z18-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.75789,
+          3.73043
+        ]
+      },
+      "properties": {
+        "name": "Jeelow",
+        "pcode": "NA-3802-G06-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.00517,
+          3.9063
+        ]
+      },
+      "properties": {
+        "name": "Buulo Jadid",
+        "pcode": "NA-3802-C12-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8113485,
+          3.92853
+        ]
+      },
+      "properties": {
+        "name": "Dadaraadi",
+        "pcode": "NA-3802-B07-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.83963,
+          3.54128
+        ]
+      },
+      "properties": {
+        "alt_name": "Molmad Weyne",
+        "name": "Udule",
+        "pcode": "NA-3802-M08-004",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.48132,
+          4.08263
+        ]
+      },
+      "properties": {
+        "name": "Yagow Dire",
+        "pcode": "NB-3814-Y22-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.04058,
+          4.00876
+        ]
+      },
+      "properties": {
+        "alt_name": "Daamud",
+        "name": "Damud",
+        "pcode": "NB-3814-Z12-003",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8337598,
+          4.1702665
+        ]
+      },
+      "properties": {
+        "name": "Weerow",
+        "pcode": "NB-3814-V08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.52753,
+          3.80396
+        ]
+      },
+      "properties": {
+        "name": "Shiidka",
+        "pcode": "NA-3802-E23-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3776041,
+          3.8519987
+        ]
+      },
+      "properties": {
+        "name": "Dhooblow",
+        "pcode": "NA-3802-D20-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9805707,
+          3.9792249
+        ]
+      },
+      "properties": {
+        "name": "Huddur Gaddud",
+        "pcode": "NA-3802-A11-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0749953,
+          3.9547141
+        ]
+      },
+      "properties": {
+        "name": "Bal Maade",
+        "pcode": "NA-3802-B13-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7734919,
+          3.7385767
+        ]
+      },
+      "properties": {
+        "name": "Doboolow",
+        "pcode": "NA-3802-G07-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9334102,
+          4.2299131
+        ]
+      },
+      "properties": {
+        "name": "Dharilgada",
+        "pcode": "NB-3814-U10-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08892,
+          3.95912
+        ]
+      },
+      "properties": {
+        "name": "Korkoor",
+        "pcode": "NA-3802-A13-005",
+        "place": "village",
+        "source": "FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5023,
+          3.8197
+        ]
+      },
+      "properties": {
+        "name": "Ubudi",
+        "pcode": "NA-3802-E23-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5536628,
+          4.0185573
+        ]
+      },
+      "properties": {
+        "name": "Haaruun",
+        "pcode": "NB-3814-Z24-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.878262,
+          3.616
+        ]
+      },
+      "properties": {
+        "name": "Jannal",
+        "pcode": "NA-3802-K09-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.86265,
+          4.20623
+        ]
+      },
+      "properties": {
+        "name": "Ilin",
+        "pcode": "NB-3814-V08-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.87186,
+          3.63814
+        ]
+      },
+      "properties": {
+        "name": "Boberreh",
+        "pcode": "NA-3802-J09-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.70475,
+          4.28994
+        ]
+      },
+      "properties": {
+        "alt_name": "Qeydar-eddy",
+        "name": "Qaydar Edi",
+        "pcode": "NB-3814-T05-002",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01156,
+          4.00911
+        ]
+      },
+      "properties": {
+        "name": "Gerfiile",
+        "pcode": "NB-3814-Z12-007",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2132035,
+          4.148559
+        ]
+      },
+      "properties": {
+        "alt_name": "Ceel Garas",
+        "name": "El Garas",
+        "pcode": "NB-3814-W16-001",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8512307,
+          3.5376978
+        ]
+      },
+      "properties": {
+        "name": "Balan Baale",
+        "pcode": "NA-3802-M08-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.46949,
+          3.87508
+        ]
+      },
+      "properties": {
+        "name": "Durey",
+        "pcode": "NA-3802-C22-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.36139,
+          3.9863
+        ]
+      },
+      "properties": {
+        "alt_name": "Abag Dheere",
+        "name": "Abaq Dhere",
+        "pcode": "NA-3802-A19-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.79503,
+          3.60057
+        ]
+      },
+      "properties": {
+        "name": "Buulo Xaansho",
+        "pcode": "NA-3802-K07-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.70832,
+          4.39642
+        ]
+      },
+      "properties": {
+        "name": "Dhursheeng-Shibeel",
+        "pcode": "NB-3814-Q05-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.04443,
+          4.00471
+        ]
+      },
+      "properties": {
+        "name": "Irwer",
+        "pcode": "NB-3814-Z12-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.822899,
+          3.5321
+        ]
+      },
+      "properties": {
+        "name": "Haydabale",
+        "pcode": "NA-3802-M08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.85969,
+          3.1
+        ]
+      },
+      "properties": {
+        "name": "Lafa",
+        "pcode": "NA-3802-X08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.896931,
+          3.60865
+        ]
+      },
+      "properties": {
+        "name": "Kaiin",
+        "pcode": "NA-3802-K09-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.44606,
+          3.83848
+        ]
+      },
+      "properties": {
+        "name": "Ka",
+        "pcode": "NA-3802-D21-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0416817,
+          4.2344029
+        ]
+      },
+      "properties": {
+        "name": "Jiira-Gaaba",
+        "pcode": "NB-3814-U12-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.71599,
+          3.66692
+        ]
+      },
+      "properties": {
+        "name": "Madi-Sagaari",
+        "pcode": "NA-3802-H05-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.72703,
+          3.7152
+        ]
+      },
+      "properties": {
+        "alt_name": "Ilooyi",
+        "name": "Iilile",
+        "pcode": "NA-3802-G05-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.025471,
+          3.23005
+        ]
+      },
+      "properties": {
+        "name": "Jimcadi Dhilmanyole",
+        "pcode": "NA-3802-U12-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.34958,
+          3.91586
+        ]
+      },
+      "properties": {
+        "name": "Dareersin 1",
+        "pcode": "NA-3802-C19-005",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.00058,
+          3.92727
+        ]
+      },
+      "properties": {
+        "name": "Ceel Heri",
+        "pcode": "NA-3802-B12-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.769299,
+          3.6176
+        ]
+      },
+      "properties": {
+        "name": "Awdey",
+        "pcode": "NA-3802-K06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.53884,
+          4.05943
+        ]
+      },
+      "properties": {
+        "name": "Shiimi",
+        "pcode": "NB-3814-Y23-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.77851,
+          3.55396
+        ]
+      },
+      "properties": {
+        "alt_name": "Ibdow",
+        "name": "Edow",
+        "pcode": "NA-3802-L07-004",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01437,
+          3.22595
+        ]
+      },
+      "properties": {
+        "name": "Buulo Wacalim",
+        "pcode": "NA-3802-U12-003",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.719131,
+          3.66924
+        ]
+      },
+      "properties": {
+        "name": "Diiga",
+        "pcode": "NA-3802-H05-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0457516,
+          3.9931245
+        ]
+      },
+      "properties": {
+        "name": "Borodo",
+        "pcode": "NA-3802-A12-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4577636,
+          3.8911238
+        ]
+      },
+      "properties": {
+        "name": "Ay Haaway",
+        "pcode": "NA-3802-C22-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.24652,
+          3.98807
+        ]
+      },
+      "properties": {
+        "name": "Wasiila",
+        "pcode": "NA-3802-A17-004",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.39187,
+          3.96158
+        ]
+      },
+      "properties": {
+        "alt_name": "Qormari",
+        "name": "Kormari",
+        "pcode": "NA-3802-A20-003",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1394448,
+          3.9765381
+        ]
+      },
+      "properties": {
+        "name": "Buurow",
+        "pcode": "NA-3802-A15-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.47046,
+          4.05689
+        ]
+      },
+      "properties": {
+        "name": "Tubineey",
+        "pcode": "NB-3814-Y22-003",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.046589,
+          3.53435
+        ]
+      },
+      "properties": {
+        "name": "Geba Gebah",
+        "pcode": "NA-3802-M13-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1723304,
+          4.1970958
+        ]
+      },
+      "properties": {
+        "name": "Karaaway",
+        "pcode": "NB-3814-V15-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1908,
+          3.95489
+        ]
+      },
+      "properties": {
+        "name": "Mubarak",
+        "pcode": "NA-3802-B16-001",
+        "place": "village",
+        "source": "UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.20699,
+          3.991
+        ]
+      },
+      "properties": {
+        "name": "Eynadow",
+        "pcode": "NA-3802-A16-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8613345,
+          3.9457126
+        ]
+      },
+      "properties": {
+        "name": "Doon Geliyo",
+        "pcode": "NA-3802-B08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.45988,
+          3.84627
+        ]
+      },
+      "properties": {
+        "name": "Lowi Gayloy",
+        "pcode": "NA-3802-D22-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3974932,
+          3.9416204
+        ]
+      },
+      "properties": {
+        "name": "Kajin",
+        "pcode": "NA-3802-B20-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.91076,
+          3.9765
+        ]
+      },
+      "properties": {
+        "name": "Kugey",
+        "pcode": "NA-3802-A10-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01562,
+          4.00345
+        ]
+      },
+      "properties": {
+        "name": "Eedkiyaal",
+        "pcode": "NB-3814-Z12-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0719102,
+          3.9314162
+        ]
+      },
+      "properties": {
+        "name": "Qaramey",
+        "pcode": "NA-3802-B13-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7546249,
+          3.7371153
+        ]
+      },
+      "properties": {
+        "name": "Alla Gabe",
+        "pcode": "NA-3802-G06-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5428,
+          3.84869
+        ]
+      },
+      "properties": {
+        "name": "Gowki",
+        "pcode": "NA-3802-D23-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4936,
+          3.84208
+        ]
+      },
+      "properties": {
+        "name": "Mood Mareri",
+        "pcode": "NA-3802-D22-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.84243,
+          3.63151
+        ]
+      },
+      "properties": {
+        "alt_name": "Ganug",
+        "name": "Gaanuugle",
+        "pcode": "NA-3802-J08-004",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3752981,
+          4.0634545
+        ]
+      },
+      "properties": {
+        "alt_name": "Dawle",
+        "name": "Dawle Wayne",
+        "pcode": "NB-3814-Y20-003",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9883174,
+          4.0028034
+        ]
+      },
+      "properties": {
+        "name": "Diini Morodir",
+        "note": "name is questionable",
+        "pcode": "NB-3814-Z11-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.44259,
+          4.1063
+        ]
+      },
+      "properties": {
+        "name": "Gadisoy Geeladle",
+        "pcode": "NB-3814-X21-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4057,
+          4.04011
+        ]
+      },
+      "properties": {
+        "name": "Idaad Dheerey",
+        "pcode": "NB-3814-Z20-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7467,
+          3.65192
+        ]
+      },
+      "properties": {
+        "name": "Qarimey",
+        "pcode": "NA-3802-J06-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.58127,
+          4.02516
+        ]
+      },
+      "properties": {
+        "alt_name": "Wararay",
+        "name": "Warinyey",
+        "pcode": "NB-3814-Z24-002",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.43131,
+          3.92551
+        ]
+      },
+      "properties": {
+        "name": "Abaq Turuuruq",
+        "pcode": "NA-3802-B21-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1805,
+          3.2701
+        ]
+      },
+      "properties": {
+        "name": "Ban-Chi Surta",
+        "pcode": "NA-3802-T15-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2089,
+          4.03501
+        ]
+      },
+      "properties": {
+        "name": "Bilile",
+        "pcode": "NB-3814-Z16-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5253,
+          3.81125
+        ]
+      },
+      "properties": {
+        "name": "Buulo Ajusi",
+        "pcode": "NA-3802-E23-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.11721,
+          4.03928
+        ]
+      },
+      "properties": {
+        "name": "Dhaydhay",
+        "pcode": "NB-3814-Z14-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.533988,
+          3.864897
+        ]
+      },
+      "properties": {
+        "name": "Sedax Haawo",
+        "pcode": "NA-3802-D23-007",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16237,
+          4.05014
+        ]
+      },
+      "properties": {
+        "name": "Fur Aalow",
+        "pcode": "NB-3814-Y15-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2819,
+          3.96698
+        ]
+      },
+      "properties": {
+        "name": "Fajer",
+        "pcode": "NA-3802-A18-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80445,
+          3.71711
+        ]
+      },
+      "properties": {
+        "alt_name": "Doora Weere",
+        "name": "Doora-Weri",
+        "pcode": "NA-3802-G07-003",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9376683,
+          3.9422049
+        ]
+      },
+      "properties": {
+        "name": "Yaferi",
+        "pcode": "NA-3802-B10-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13848,
+          4.04094
+        ]
+      },
+      "properties": {
+        "name": "Buulo Dhato",
+        "pcode": "NB-3814-Z15-007",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.304871,
+          3.96329
+        ]
+      },
+      "properties": {
+        "name": "Gonreh",
+        "pcode": "NA-3802-A18-002",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9378009,
+          4.1224317
+        ]
+      },
+      "properties": {
+        "name": "Gomrey",
+        "pcode": "NB-3814-X10-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.03153,
+          4.01406
+        ]
+      },
+      "properties": {
+        "name": "Buulo Ooman",
+        "pcode": "NB-3814-Z12-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.844761,
+          3.54998
+        ]
+      },
+      "properties": {
+        "name": "Drersin",
+        "pcode": "NA-3802-L08-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.460011,
+          3.9046
+        ]
+      },
+      "properties": {
+        "name": "Jiumqaale",
+        "pcode": "NA-3802-C22-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.24976,
+          3.99679
+        ]
+      },
+      "properties": {
+        "name": "Gooje Wanle",
+        "pcode": "NA-3802-A17-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0374961,
+          4.1201231
+        ]
+      },
+      "properties": {
+        "name": "Abaq Beeday",
+        "pcode": "NB-3814-X12-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.07335,
+          4.12306
+        ]
+      },
+      "properties": {
+        "name": "Tijeeg Buul",
+        "pcode": "NB-3814-X13-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7988,
+          3.57025
+        ]
+      },
+      "properties": {
+        "name": "Godow",
+        "pcode": "NA-3802-L07-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.877838,
+          4.12339
+        ]
+      },
+      "properties": {
+        "name": "Dhursheen طورشين",
+        "name:ar": "طورشين",
+        "name:en": "Dhursheen",
+        "name:fr": "Dhursheen",
+        "pcode": "NB-3814-X09-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8142562,
+          3.7130677
+        ]
+      },
+      "properties": {
+        "alt_name": "Lojir",
+        "name": "Loojar",
+        "pcode": "NA-3802-G07-002",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.54457,
+          3.78706
+        ]
+      },
+      "properties": {
+        "name": "Shaatoli",
+        "pcode": "NA-3802-F23-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01413,
+          4.0232
+        ]
+      },
+      "properties": {
+        "name": "Madi-Wegled",
+        "pcode": "NB-3814-Z12-011",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3515,
+          3.92419
+        ]
+      },
+      "properties": {
+        "name": "Dareersin 2",
+        "pcode": "NA-3802-B19-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3875106,
+          4.0495042
+        ]
+      },
+      "properties": {
+        "alt_name": "Dawli Yari",
+        "name": "Dawlo Yare",
+        "pcode": "NB-3814-Y20-005",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0274808,
+          4.1167206
+        ]
+      },
+      "properties": {
+        "name": "Buulo Fur",
+        "pcode": "NB-3814-X12-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5007317,
+          3.854857
+        ]
+      },
+      "properties": {
+        "name": "Herarow",
+        "pcode": "NA-3802-D23-005",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0195924,
+          4.0068675
+        ]
+      },
+      "properties": {
+        "name": "Agoow",
+        "pcode": "NB-3814-Z12-009",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.71446,
+          3.67217
+        ]
+      },
+      "properties": {
+        "name": "Warka Waayi",
+        "pcode": "NA-3802-H05-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.750599,
+          3.533
+        ]
+      },
+      "properties": {
+        "name": "Bulo Balamal",
+        "pcode": "NA-3802-M06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4318246,
+          4.024593
+        ]
+      },
+      "properties": {
+        "name": "Harrarte",
+        "pcode": "NB-3814-Z21-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8192198,
+          3.9115014
+        ]
+      },
+      "properties": {
+        "alt_name": "Dondardir Sss",
+        "name": "Doondardiir",
+        "pcode": "NA-3802-C08-001",
+        "place": "village",
+        "source": "UNDP - 2006, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.84323,
+          3.96915
+        ]
+      },
+      "properties": {
+        "name": "Redinle",
+        "pcode": "NA-3802-A08-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97115,
+          3.87334
+        ]
+      },
+      "properties": {
+        "name": "Fajiitoole",
+        "pcode": "NA-3802-D11-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.039551,
+          3.53238
+        ]
+      },
+      "properties": {
+        "name": "Buulo Bilaan",
+        "pcode": "NA-3802-M12-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.45777,
+          4.02631
+        ]
+      },
+      "properties": {
+        "name": "Hareere Dheerow",
+        "pcode": "NB-3814-Z22-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.99289,
+          4.19082
+        ]
+      },
+      "properties": {
+        "name": "Dhanfaruur",
+        "pcode": "NB-3814-V11-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.92285,
+          4.00704
+        ]
+      },
+      "properties": {
+        "name": "Ban-Boon",
+        "pcode": "NB-3814-Z10-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.56234,
+          3.76346
+        ]
+      },
+      "properties": {
+        "name": "Libaanow",
+        "pcode": "NA-3802-F24-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4213461,
+          3.9372033
+        ]
+      },
+      "properties": {
+        "alt_name": "Biyooley",
+        "name": "Bioyooley",
+        "pcode": "NA-3802-B21-003",
+        "place": "village",
+        "source": "UNDP - 2006, UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.428181,
+          4.02662
+        ]
+      },
+      "properties": {
+        "name": "Xararla",
+        "pcode": "NB-3814-Z21-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8588305,
+          3.1985124
+        ]
+      },
+      "properties": {
+        "name": "Neebsoy",
+        "pcode": "NA-3802-V08-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.804379,
+          3.63065
+        ]
+      },
+      "properties": {
+        "name": "Gonreh",
+        "pcode": "NA-3802-J07-003",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.31014,
+          4.19579
+        ]
+      },
+      "properties": {
+        "name": "Gunraale",
+        "pcode": "NB-3814-V18-001",
+        "place": "village",
+        "source": "FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01622,
+          4.01994
+        ]
+      },
+      "properties": {
+        "name": "Aburow Issak Mursal",
+        "pcode": "NB-3814-Z12-008",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.168201,
+          4.0222
+        ]
+      },
+      "properties": {
+        "name": "Ceel Ya",
+        "pcode": "NB-3814-Z15-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.32553,
+          4.02261
+        ]
+      },
+      "properties": {
+        "name": "Eedkiyaal Dison",
+        "pcode": "NB-3814-Z19-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5826712,
+          4.0442372
+        ]
+      },
+      "properties": {
+        "name": "Aliyo",
+        "pcode": "NB-3814-Y24-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.503391,
+          3.85339
+        ]
+      },
+      "properties": {
+        "name": "Elkiya",
+        "pcode": "NA-3802-D23-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1828339,
+          4.1515434
+        ]
+      },
+      "properties": {
+        "name": "Buulo",
+        "pcode": "NB-3814-W16-002",
+        "place": "town",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.44612,
+          4.02935
+        ]
+      },
+      "properties": {
+        "name": "Oomin",
+        "pcode": "NB-3814-Z21-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5121305,
+          4.0137569
+        ]
+      },
+      "properties": {
+        "alt_name": "Tieglow",
+        "name": "Tayeeglow",
+        "pcode": "NB-3814-Z23-001",
+        "place": "town",
+        "source": "UNDP - 1997, FSAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2484169,
+          4.143453
+        ]
+      },
+      "properties": {
+        "name": "Iskaashiti",
+        "pcode": "NB-3814-W17-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.731,
+          3.63345
+        ]
+      },
+      "properties": {
+        "name": "Aw-Maadow",
+        "pcode": "NA-3802-J06-004",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13665,
+          3.98374
+        ]
+      },
+      "properties": {
+        "name": "Deygab",
+        "pcode": "NA-3802-A15-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.76616,
+          3.86871
+        ]
+      },
+      "properties": {
+        "name": "Seynilow",
+        "pcode": "NA-3802-D06-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0821806,
+          3.9721782
+        ]
+      },
+      "properties": {
+        "name": "Buulo Mamayow",
+        "pcode": "NA-3802-A13-001",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08201,
+          4.0281
+        ]
+      },
+      "properties": {
+        "name": "May Qonsiti",
+        "pcode": "NB-3814-Z13-006",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5793683,
+          4.005883
+        ]
+      },
+      "properties": {
+        "name": "Uuslaw",
+        "pcode": "NB-3814-Z24-003",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.352533,
+          3.8608067
+        ]
+      },
+      "properties": {
+        "name": "Dudumale Wiin",
+        "pcode": "NA-3802-D19-002",
+        "place": "village",
+        "source": "UNDP - 2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0092429,
+          3.2349659
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8280034,
+          3.2237828
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8313293,
+          3.2259787
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8357335,
+          3.2205317
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7618333,
+          3.1804524
+        ]
+      },
+      "properties": {
+        "name": "Areeg",
+        "pcode": "NA-3802-V06-001",
+        "place": "village",
+        "source": "UNDP - 1997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7746194,
+          3.1799891
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8293981,
+          3.1078525
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8465857,
+          3.2172539
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9264432,
+          4.1345861
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9540511,
+          4.1287835
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.947013,
+          4.0018757
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.951039,
+          4.006312
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9547163,
+          4.0100739
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9850172,
+          4.0023573
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9915967,
+          4.1260226
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9243117,
+          4.1273082
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9662632,
+          4.1245405
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9584907,
+          4.011552
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8007793,
+          3.8643307
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8328099,
+          3.8838328
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.984639,
+          3.9492463
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5096493,
+          4.0188982
+        ]
+      },
+      "properties": {
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8297173,
+          3.214679
+        ]
+      },
+      "properties": {
+        "landuse": "residential",
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8358851,
+          3.220991
+        ]
+      },
+      "properties": {
+        "landuse": "residential",
+        "place": "village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8272953,
+          3.2232084
+        ]
+      },
+      "properties": {
+        "landuse": "residential",
+        "place": "village"
+      }
+    }
+  ]
+}
